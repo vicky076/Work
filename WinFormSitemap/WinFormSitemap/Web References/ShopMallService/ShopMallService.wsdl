@@ -1,0 +1,3621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ViewGetProductType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="StoreTypeSn" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ViewGetProductTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ViewGetProductTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ViewGetStoreType">
+        <s:complexType />
+      </s:element>
+      <s:element name="ViewGetStoreTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ViewGetStoreTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMSPGetProductFromStoreTypeSn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="StoreTypeSn" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="EachPageObjCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PageNoInfo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Columns" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMSPGetProductFromStoreTypeSnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMSPGetProductFromStoreTypeSnResult" type="tns:ReturnValue" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ReturnValue">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="PageCount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProductCount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ViewMallColumnsPriority">
+        <s:complexType />
+      </s:element>
+      <s:element name="ViewMallColumnsPriorityResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ViewMallColumnsPriorityResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SPMallOrderQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SPMallOrderQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SPMallOrderQueryResult" type="tns:OrderQueryRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="OrderQueryRE">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnBoolean" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="View_Mall_Products_TOP5">
+        <s:complexType />
+      </s:element>
+      <s:element name="View_Mall_Products_TOP5Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_Products_TOP5Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_CommercialType">
+        <s:complexType />
+      </s:element>
+      <s:element name="View_Mall_CommercialTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_CommercialTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_Commercialinfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CommercialTypeId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_CommercialinfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_CommercialinfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Member_ContactList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Member_ContactListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Member_ContactListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SP_Member_ContactListInsert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="USER_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Area" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TelCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Telphone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mobile" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SP_Member_ContactListInsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SP_Member_ContactListInsertResult" type="tns:ContactListRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ContactListRE">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnValue" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SP_Member_ContactListUpdate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Sn" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="City" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Area" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TelCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Telphone" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mobile" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserStamp" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SP_Member_ContactListUpdateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SP_Member_ContactListUpdateResult" type="tns:ContactListRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStoreType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Sn" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStoreTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStoreTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Sn" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDataSnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDataSnResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Getnode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="abc" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Proid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetnodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetnodeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMSPGetProductPageInfoProductHtmlContent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMSPGetProductPageInfoProductHtmlContentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMSPGetProductPageInfoProductHtmlContentResult" type="tns:ReturnValue" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Products_Query">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StoreTypeSn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductTypeName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductContent" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PriceStartNum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PriceEndNum" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Products_QueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Products_QueryResult" type="tns:OrderQueryRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_GetProductSize">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_GetProductSizeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_GetProductSizeResult" type="tns:OrderQueryRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_NewMall_ShopCart_Check">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KeyId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="MallSn" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ProductsSizeSn" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_NewMall_ShopCart_CheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_NewMall_ShopCart_CheckResult" type="tns:ShopCartCheckInsertResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ShopCartCheckInsertResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ShippingModeType" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MSM_SP_Mall_ShopCart_Insert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KeyId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="MallSn" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ProductsSizeSn" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_ShopCart_InsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_ShopCart_InsertResult" type="tns:OrderQueryRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertShopCart_New">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KeyId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="MallSn" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertShopCart_NewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertShopCart_NewResult" type="tns:OrderQueryRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_ShopCartUpdate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShopCartSn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KeyId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_ShopCartUpdateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_ShopCartUpdateResult" type="tns:ShopCartUpdateRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ShopCartUpdateRE">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MSM_SP_Mall_ShopCartDelete">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ShopCartSn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="KeyId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_ShopCartDeleteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_ShopCartDeleteResult" type="tns:ShopCartDeleteRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ShopCartDeleteRE">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="View_Mall_GetShopCart_ForCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BagKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetShopCart_ForCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_GetShopCart_ForCountResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetOrderDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetOrderDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_GetOrderDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetTempOrderDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetTempOrderDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_GetTempOrderDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetTempOrderDetail_ForCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetTempOrderDetail_ForCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_GetTempOrderDetail_ForCountResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetOrderDetail_ForCount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetOrderDetail_ForCountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_GetOrderDetail_ForCountResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_TextCommercial">
+        <s:complexType />
+      </s:element>
+      <s:element name="View_Mall_TextCommercialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_TextCommercialResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShipping">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OutPay" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMViewGetPaymentShippingResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingMuti">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OutPay" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingMutiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMViewGetPaymentShippingMutiResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingForPaymentKind">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingForPaymentKindResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMViewGetPaymentShippingForPaymentKindResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingForPaymentKindMuti">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingForPaymentKindMutiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMViewGetPaymentShippingForPaymentKindMutiResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingCheck">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StoreProductServiceId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OutPay" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingCheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMViewGetPaymentShippingCheckResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingCheck1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OutPay" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingCheck1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMViewGetPaymentShippingCheck1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingForGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OutPay" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingForGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMViewGetPaymentShippingForGroupResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingForGroup1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMViewGetPaymentShippingForGroup1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMViewGetPaymentShippingForGroup1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMSPMallStorePointsTradeDetailInsert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AuthCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FactoryTradeCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMSPMallStorePointsTradeDetailInsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMSPMallStorePointsTradeDetailInsertResult" type="tns:MSMSPMallStorePointsTradeDetailInsertRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MSMSPMallStorePointsTradeDetailInsertRE">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MSMSPMallStorePointsTradeDetailUpdate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AuthCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMSPMallStorePointsTradeDetailUpdateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMSPMallStorePointsTradeDetailUpdateResult" type="tns:MSMSPMallStorePointsTradeDetailUpdateRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MSMSPMallStorePointsTradeDetailUpdateRE">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnOrderId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MSMSPGetOrderByOrderId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSMSPGetOrderByOrderIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSMSPGetOrderByOrderIdResult" type="tns:MSMSPGetOrderByOrderIdRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MSMSPGetOrderByOrderIdRE">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MSM_View_Mall_TrackDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MemberId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_View_Mall_TrackDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_View_Mall_TrackDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_TrackDetail_Insert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MemberId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MallSn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductsSizeSn" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_TrackDetail_InsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_TrackDetail_InsertResult" type="tns:OrderQueryRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DoBillingAuthCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AuthCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DoBillingAuthCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DoBillingAuthCodeResult" type="tns:DoBillingAuthCodeRe" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DoBillingAuthCodeRe">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnOrderId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAuthCode">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServiceId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CpTradeSeq" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Price" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAuthCodeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAuthCodeResult" type="tns:GetAuthCodeRe" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetAuthCodeRe">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnAuthCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="QueryTradeBilling">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sCpAuthCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QueryTradeBillingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QueryTradeBillingResult" type="tns:QueryTradeBillingRe" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="QueryTradeBillingRe">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MSM_View_GetOrderDetailEnd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_View_GetOrderDetailEndResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_View_GetOrderDetailEndResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_View_GetOrderDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_View_GetOrderDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_View_GetOrderDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetHomeDeliveryDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_GetHomeDeliveryDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_GetHomeDeliveryDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_ProductClick_Update">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_ProductClick_UpdateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_ProductClick_UpdateResult" type="tns:ReturnValue" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertTrackDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MemberID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MallSN" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Creator" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertTrackDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertTrackDetailResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_TrackDetailDelete">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Sn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MemberId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_TrackDetailDeleteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MSM_SP_TrackDetailDeleteResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_GetProduct_FromProductTypeSn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductTypeSn" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="EachPageObjCount" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="PageNoInfo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_GetProduct_FromProductTypeSnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_GetProduct_FromProductTypeSnResult" type="tns:MSM_SP_GetProduct_FromProductTypeSnResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MSM_SP_GetProduct_FromProductTypeSnResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="PageCount" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ProductCount" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDs">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SPM_View_GetProductType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ParentSn" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SPM_View_GetProductTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SPM_View_GetProductTypeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_GetBackOrderInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateDateStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateDateEnd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DateStampStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DateStampEnd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderIDStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderIDEnd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReturnCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MemberID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ShippingModeTypeSn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PayPhonNo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_GetBackOrderInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_GetBackOrderInfoResult" type="tns:GetBackOrderInfoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="GetBackOrderInfoResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="View_Mall_Products">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_ProductsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_ProductsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_ProductsSize">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_ProductsSizeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_ProductsSizeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_InvoiceData_Insert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvUserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvCity" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvArea" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="InvTel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TradePrice" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_InvoiceData_InsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_InvoiceData_InsertResult" type="tns:InvoiceDataInsertResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="InvoiceDataInsertResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetCommercial">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CommercialTypeID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCommercialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCommercialResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOtherCommercial">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CommercialTypeID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="MallSn" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOtherCommercialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOtherCommercialResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCommercial_FromStoreTypeSn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CommercialTypeID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="StoreTypeSn" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCommercial_FromStoreTypeSnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCommercial_FromStoreTypeSnResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCard_Mall_MemberQueryAddressData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardOTP" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCustId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCard_Mall_MemberQueryAddressDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCard_Mall_MemberQueryAddressDataResult" type="tns:MyCard_Mall_MemberQueryAddressDataResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MyCard_Mall_MemberQueryAddressDataResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDataset">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="View_Mall_StorePoints_TradeDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AuthCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_Mall_StorePoints_TradeDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_Mall_StorePoints_TradeDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMyCard_AnnouncementView">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AnnouceType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMyCard_AnnouncementViewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMyCard_AnnouncementViewResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_NewMall_ShopCart_Check_forOther">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KeyId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Quantity" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="MallSn" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="ProductsSizeSn" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_NewMall_ShopCart_Check_forOtherResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_NewMall_ShopCart_Check_forOtherResult" type="tns:ShopCartCheckInsertResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetView_Mall_GetBillingReSaveInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetView_Mall_GetBillingReSaveInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetView_Mall_GetBillingReSaveInfoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_GetBackOrderInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateDateStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateDateEnd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DateStampStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DateStampEnd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderIDStart" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OrderIDEnd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReturnCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MemberID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PayPhonNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ShippingModeTypeSn" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Status" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_GetBackOrderInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_GetBackOrderInfoResult" type="tns:OrderQueryRE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_MagazineSection_Insert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_MagazineSection_InsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_MagazineSection_InsertResult" type="tns:InsertResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="InsertResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MyCardApp_ShopCart_GetBagInfoByBagID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BagKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardApp_ShopCart_GetBagInfoByBagIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardApp_ShopCart_GetBagInfoByBagIDResult" type="tns:GetBackOrderInfoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_GetOrderDetail_A02">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MemberID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="CreateDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_GetOrderDetail_A02Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_GetOrderDetail_A02Result" type="tns:MSMGetOrderDetail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MSMGetOrderDetail">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MSM_SP_Mall_InvoiceDataGetToken">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_InvoiceDataGetTokenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_InvoiceDataGetTokenResult" type="tns:MSMMall_InvoiceDataGetToken" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MSMMall_InvoiceDataGetToken">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InvoiceToken" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MSM_SP_Mall_InvoiceDataGetPaper">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="OrderId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_Mall_InvoiceDataGetPaperResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_Mall_InvoiceDataGetPaperResult" type="tns:MSMMall_InvoiceDataGetPaper" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="MSMMall_InvoiceDataGetPaper">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBanner">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetBannerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBannerResult" type="tns:ArrayOfMyCard_Ad_ImageView_A01" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMyCard_Ad_ImageView_A01">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="MyCard_Ad_ImageView_A01" nillable="true" type="tns:MyCard_Ad_ImageView_A01" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MyCard_Ad_ImageView_A01">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ImageURL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DirectURL" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MSM_SP_NewMall_Order_Senao_Insert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="P_cOrderID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="P_cMemberId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="P_cMemberName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="P_cMemberTel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="P_cMemberMail" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="P_cMemberPostcode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="P_cMemberAddr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="P_cTotalMoney" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="P_cCreateUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MSM_SP_NewMall_Order_Senao_InsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MSM_SP_NewMall_Order_Senao_InsertResult" type="tns:InsertResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ViewGetProductTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:ViewGetProductType" />
+  </wsdl:message>
+  <wsdl:message name="ViewGetProductTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:ViewGetProductTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ViewGetStoreTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:ViewGetStoreType" />
+  </wsdl:message>
+  <wsdl:message name="ViewGetStoreTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:ViewGetStoreTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPGetProductFromStoreTypeSnSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMSPGetProductFromStoreTypeSn" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPGetProductFromStoreTypeSnSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMSPGetProductFromStoreTypeSnResponse" />
+  </wsdl:message>
+  <wsdl:message name="ViewMallColumnsPrioritySoapIn">
+    <wsdl:part name="parameters" element="tns:ViewMallColumnsPriority" />
+  </wsdl:message>
+  <wsdl:message name="ViewMallColumnsPrioritySoapOut">
+    <wsdl:part name="parameters" element="tns:ViewMallColumnsPriorityResponse" />
+  </wsdl:message>
+  <wsdl:message name="SPMallOrderQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:SPMallOrderQuery" />
+  </wsdl:message>
+  <wsdl:message name="SPMallOrderQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:SPMallOrderQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_Products_TOP5SoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_Products_TOP5" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_Products_TOP5SoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_Products_TOP5Response" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_CommercialTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_CommercialType" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_CommercialTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_CommercialTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_CommercialinfoSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_Commercialinfo" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_CommercialinfoSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_CommercialinfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Member_ContactListSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Member_ContactList" />
+  </wsdl:message>
+  <wsdl:message name="View_Member_ContactListSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Member_ContactListResponse" />
+  </wsdl:message>
+  <wsdl:message name="SP_Member_ContactListInsertSoapIn">
+    <wsdl:part name="parameters" element="tns:SP_Member_ContactListInsert" />
+  </wsdl:message>
+  <wsdl:message name="SP_Member_ContactListInsertSoapOut">
+    <wsdl:part name="parameters" element="tns:SP_Member_ContactListInsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="SP_Member_ContactListUpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:SP_Member_ContactListUpdate" />
+  </wsdl:message>
+  <wsdl:message name="SP_Member_ContactListUpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:SP_Member_ContactListUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStoreTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStoreType" />
+  </wsdl:message>
+  <wsdl:message name="GetStoreTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStoreTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSnSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDataSn" />
+  </wsdl:message>
+  <wsdl:message name="GetDataSnSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDataSnResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetnodeSoapIn">
+    <wsdl:part name="parameters" element="tns:Getnode" />
+  </wsdl:message>
+  <wsdl:message name="GetnodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetnodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPGetProductPageInfoProductHtmlContentSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMSPGetProductPageInfoProductHtmlContent" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPGetProductPageInfoProductHtmlContentSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMSPGetProductPageInfoProductHtmlContentResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Products_QuerySoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Products_Query" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Products_QuerySoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Products_QueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_GetProductSizeSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_GetProductSize" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_GetProductSizeSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_GetProductSizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_NewMall_ShopCart_CheckSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_NewMall_ShopCart_Check" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_NewMall_ShopCart_CheckSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_NewMall_ShopCart_CheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_ShopCart_InsertSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_ShopCart_Insert" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_ShopCart_InsertSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_ShopCart_InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertShopCart_NewSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertShopCart_New" />
+  </wsdl:message>
+  <wsdl:message name="InsertShopCart_NewSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertShopCart_NewResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_ShopCartUpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_ShopCartUpdate" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_ShopCartUpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_ShopCartUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_ShopCartDeleteSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_ShopCartDelete" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_ShopCartDeleteSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_ShopCartDeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetShopCart_ForCountSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetShopCart_ForCount" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetShopCart_ForCountSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetShopCart_ForCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetOrderDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetOrderDetail" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetOrderDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetOrderDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetTempOrderDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetTempOrderDetail" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetTempOrderDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetTempOrderDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetTempOrderDetail_ForCountSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetTempOrderDetail_ForCount" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetTempOrderDetail_ForCountSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetTempOrderDetail_ForCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetOrderDetail_ForCountSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetOrderDetail_ForCount" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetOrderDetail_ForCountSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetOrderDetail_ForCountResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_TextCommercialSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_TextCommercial" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_TextCommercialSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_TextCommercialResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShipping" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingMutiSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingMuti" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingMutiSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingMutiResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingForPaymentKindSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingForPaymentKind" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingForPaymentKindSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingForPaymentKindResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingForPaymentKindMutiSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingForPaymentKindMuti" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingForPaymentKindMutiSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingForPaymentKindMutiResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingCheckSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingCheck" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingCheckSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingCheck1SoapIn">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingCheck1" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingCheck1SoapOut">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingCheck1Response" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingForGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingForGroup" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingForGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingForGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingForGroup1SoapIn">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingForGroup1" />
+  </wsdl:message>
+  <wsdl:message name="MSMViewGetPaymentShippingForGroup1SoapOut">
+    <wsdl:part name="parameters" element="tns:MSMViewGetPaymentShippingForGroup1Response" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPMallStorePointsTradeDetailInsertSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMSPMallStorePointsTradeDetailInsert" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPMallStorePointsTradeDetailInsertSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMSPMallStorePointsTradeDetailInsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPMallStorePointsTradeDetailUpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMSPMallStorePointsTradeDetailUpdate" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPMallStorePointsTradeDetailUpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMSPMallStorePointsTradeDetailUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPGetOrderByOrderIdSoapIn">
+    <wsdl:part name="parameters" element="tns:MSMSPGetOrderByOrderId" />
+  </wsdl:message>
+  <wsdl:message name="MSMSPGetOrderByOrderIdSoapOut">
+    <wsdl:part name="parameters" element="tns:MSMSPGetOrderByOrderIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_View_Mall_TrackDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_View_Mall_TrackDetail" />
+  </wsdl:message>
+  <wsdl:message name="MSM_View_Mall_TrackDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_View_Mall_TrackDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_TrackDetail_InsertSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_TrackDetail_Insert" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_TrackDetail_InsertSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_TrackDetail_InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="DoBillingAuthCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:DoBillingAuthCode" />
+  </wsdl:message>
+  <wsdl:message name="DoBillingAuthCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:DoBillingAuthCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAuthCodeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAuthCode" />
+  </wsdl:message>
+  <wsdl:message name="GetAuthCodeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAuthCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="QueryTradeBillingSoapIn">
+    <wsdl:part name="parameters" element="tns:QueryTradeBilling" />
+  </wsdl:message>
+  <wsdl:message name="QueryTradeBillingSoapOut">
+    <wsdl:part name="parameters" element="tns:QueryTradeBillingResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_View_GetOrderDetailEndSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_View_GetOrderDetailEnd" />
+  </wsdl:message>
+  <wsdl:message name="MSM_View_GetOrderDetailEndSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_View_GetOrderDetailEndResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_View_GetOrderDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_View_GetOrderDetail" />
+  </wsdl:message>
+  <wsdl:message name="MSM_View_GetOrderDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_View_GetOrderDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetHomeDeliveryDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetHomeDeliveryDetail" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_GetHomeDeliveryDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_GetHomeDeliveryDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_ProductClick_UpdateSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_ProductClick_Update" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_ProductClick_UpdateSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_ProductClick_UpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertTrackDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertTrackDetail" />
+  </wsdl:message>
+  <wsdl:message name="InsertTrackDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertTrackDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_TrackDetailDeleteSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_TrackDetailDelete" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_TrackDetailDeleteSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_TrackDetailDeleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_GetProduct_FromProductTypeSnSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_GetProduct_FromProductTypeSn" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_GetProduct_FromProductTypeSnSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_GetProduct_FromProductTypeSnResponse" />
+  </wsdl:message>
+  <wsdl:message name="SPM_View_GetProductTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:SPM_View_GetProductType" />
+  </wsdl:message>
+  <wsdl:message name="SPM_View_GetProductTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:SPM_View_GetProductTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_GetBackOrderInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_GetBackOrderInfo" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_GetBackOrderInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_GetBackOrderInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_ProductsSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_Products" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_ProductsSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_ProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_ProductsSizeSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_ProductsSize" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_ProductsSizeSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_ProductsSizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_InvoiceData_InsertSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_InvoiceData_Insert" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_InvoiceData_InsertSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_InvoiceData_InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCommercialSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCommercial" />
+  </wsdl:message>
+  <wsdl:message name="GetCommercialSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCommercialResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOtherCommercialSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOtherCommercial" />
+  </wsdl:message>
+  <wsdl:message name="GetOtherCommercialSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOtherCommercialResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCommercial_FromStoreTypeSnSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCommercial_FromStoreTypeSn" />
+  </wsdl:message>
+  <wsdl:message name="GetCommercial_FromStoreTypeSnSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCommercial_FromStoreTypeSnResponse" />
+  </wsdl:message>
+  <wsdl:message name="MyCard_Mall_MemberQueryAddressDataSoapIn">
+    <wsdl:part name="parameters" element="tns:MyCard_Mall_MemberQueryAddressData" />
+  </wsdl:message>
+  <wsdl:message name="MyCard_Mall_MemberQueryAddressDataSoapOut">
+    <wsdl:part name="parameters" element="tns:MyCard_Mall_MemberQueryAddressDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_StorePoints_TradeDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:View_Mall_StorePoints_TradeDetail" />
+  </wsdl:message>
+  <wsdl:message name="View_Mall_StorePoints_TradeDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:View_Mall_StorePoints_TradeDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMyCard_AnnouncementViewSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMyCard_AnnouncementView" />
+  </wsdl:message>
+  <wsdl:message name="GetMyCard_AnnouncementViewSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMyCard_AnnouncementViewResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_NewMall_ShopCart_Check_forOtherSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_NewMall_ShopCart_Check_forOther" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_NewMall_ShopCart_Check_forOtherSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_NewMall_ShopCart_Check_forOtherResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetView_Mall_GetBillingReSaveInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetView_Mall_GetBillingReSaveInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetView_Mall_GetBillingReSaveInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetView_Mall_GetBillingReSaveInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_GetBackOrderInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_GetBackOrderInfo" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_GetBackOrderInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_GetBackOrderInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_MagazineSection_InsertSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_MagazineSection_Insert" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_MagazineSection_InsertSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_MagazineSection_InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="MyCardApp_ShopCart_GetBagInfoByBagIDSoapIn">
+    <wsdl:part name="parameters" element="tns:MyCardApp_ShopCart_GetBagInfoByBagID" />
+  </wsdl:message>
+  <wsdl:message name="MyCardApp_ShopCart_GetBagInfoByBagIDSoapOut">
+    <wsdl:part name="parameters" element="tns:MyCardApp_ShopCart_GetBagInfoByBagIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_GetOrderDetail_A02SoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_GetOrderDetail_A02" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_GetOrderDetail_A02SoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_GetOrderDetail_A02Response" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_InvoiceDataGetTokenSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_InvoiceDataGetToken" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_InvoiceDataGetTokenSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_InvoiceDataGetTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_InvoiceDataGetPaperSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_InvoiceDataGetPaper" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_Mall_InvoiceDataGetPaperSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_Mall_InvoiceDataGetPaperResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBannerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBanner" />
+  </wsdl:message>
+  <wsdl:message name="GetBannerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBannerResponse" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_NewMall_Order_Senao_InsertSoapIn">
+    <wsdl:part name="parameters" element="tns:MSM_SP_NewMall_Order_Senao_Insert" />
+  </wsdl:message>
+  <wsdl:message name="MSM_SP_NewMall_Order_Senao_InsertSoapOut">
+    <wsdl:part name="parameters" element="tns:MSM_SP_NewMall_Order_Senao_InsertResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ShopMallServiceSoap">
+    <wsdl:operation name="ViewGetProductType">
+      <wsdl:input message="tns:ViewGetProductTypeSoapIn" />
+      <wsdl:output message="tns:ViewGetProductTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewGetStoreType">
+      <wsdl:input message="tns:ViewGetStoreTypeSoapIn" />
+      <wsdl:output message="tns:ViewGetStoreTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPGetProductFromStoreTypeSn">
+      <wsdl:input message="tns:MSMSPGetProductFromStoreTypeSnSoapIn" />
+      <wsdl:output message="tns:MSMSPGetProductFromStoreTypeSnSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewMallColumnsPriority">
+      <wsdl:input message="tns:ViewMallColumnsPrioritySoapIn" />
+      <wsdl:output message="tns:ViewMallColumnsPrioritySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SPMallOrderQuery">
+      <wsdl:input message="tns:SPMallOrderQuerySoapIn" />
+      <wsdl:output message="tns:SPMallOrderQuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_Products_TOP5">
+      <wsdl:input message="tns:View_Mall_Products_TOP5SoapIn" />
+      <wsdl:output message="tns:View_Mall_Products_TOP5SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_CommercialType">
+      <wsdl:input message="tns:View_Mall_CommercialTypeSoapIn" />
+      <wsdl:output message="tns:View_Mall_CommercialTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_Commercialinfo">
+      <wsdl:input message="tns:View_Mall_CommercialinfoSoapIn" />
+      <wsdl:output message="tns:View_Mall_CommercialinfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Member_ContactList">
+      <wsdl:input message="tns:View_Member_ContactListSoapIn" />
+      <wsdl:output message="tns:View_Member_ContactListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SP_Member_ContactListInsert">
+      <wsdl:input message="tns:SP_Member_ContactListInsertSoapIn" />
+      <wsdl:output message="tns:SP_Member_ContactListInsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SP_Member_ContactListUpdate">
+      <wsdl:input message="tns:SP_Member_ContactListUpdateSoapIn" />
+      <wsdl:output message="tns:SP_Member_ContactListUpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreType">
+      <wsdl:input message="tns:GetStoreTypeSoapIn" />
+      <wsdl:output message="tns:GetStoreTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSn">
+      <wsdl:input message="tns:GetDataSnSoapIn" />
+      <wsdl:output message="tns:GetDataSnSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Getnode">
+      <wsdl:input message="tns:GetnodeSoapIn" />
+      <wsdl:output message="tns:GetnodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPGetProductPageInfoProductHtmlContent">
+      <wsdl:input message="tns:MSMSPGetProductPageInfoProductHtmlContentSoapIn" />
+      <wsdl:output message="tns:MSMSPGetProductPageInfoProductHtmlContentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Products_Query">
+      <wsdl:input message="tns:MSM_SP_Products_QuerySoapIn" />
+      <wsdl:output message="tns:MSM_SP_Products_QuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_GetProductSize">
+      <wsdl:input message="tns:MSM_SP_Mall_GetProductSizeSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_GetProductSizeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_NewMall_ShopCart_Check">
+      <wsdl:input message="tns:MSM_SP_NewMall_ShopCart_CheckSoapIn" />
+      <wsdl:output message="tns:MSM_SP_NewMall_ShopCart_CheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ShopCart_Insert">
+      <wsdl:input message="tns:MSM_SP_Mall_ShopCart_InsertSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_ShopCart_InsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertShopCart_New">
+      <wsdl:input message="tns:InsertShopCart_NewSoapIn" />
+      <wsdl:output message="tns:InsertShopCart_NewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ShopCartUpdate">
+      <wsdl:input message="tns:MSM_SP_Mall_ShopCartUpdateSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_ShopCartUpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ShopCartDelete">
+      <wsdl:input message="tns:MSM_SP_Mall_ShopCartDeleteSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_ShopCartDeleteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetShopCart_ForCount">
+      <wsdl:input message="tns:View_Mall_GetShopCart_ForCountSoapIn" />
+      <wsdl:output message="tns:View_Mall_GetShopCart_ForCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetOrderDetail">
+      <wsdl:input message="tns:View_Mall_GetOrderDetailSoapIn" />
+      <wsdl:output message="tns:View_Mall_GetOrderDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetTempOrderDetail">
+      <wsdl:input message="tns:View_Mall_GetTempOrderDetailSoapIn" />
+      <wsdl:output message="tns:View_Mall_GetTempOrderDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetTempOrderDetail_ForCount">
+      <wsdl:input message="tns:View_Mall_GetTempOrderDetail_ForCountSoapIn" />
+      <wsdl:output message="tns:View_Mall_GetTempOrderDetail_ForCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetOrderDetail_ForCount">
+      <wsdl:input message="tns:View_Mall_GetOrderDetail_ForCountSoapIn" />
+      <wsdl:output message="tns:View_Mall_GetOrderDetail_ForCountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_TextCommercial">
+      <wsdl:input message="tns:View_Mall_TextCommercialSoapIn" />
+      <wsdl:output message="tns:View_Mall_TextCommercialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShipping">
+      <wsdl:input message="tns:MSMViewGetPaymentShippingSoapIn" />
+      <wsdl:output message="tns:MSMViewGetPaymentShippingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingMuti">
+      <wsdl:input message="tns:MSMViewGetPaymentShippingMutiSoapIn" />
+      <wsdl:output message="tns:MSMViewGetPaymentShippingMutiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForPaymentKind">
+      <wsdl:input message="tns:MSMViewGetPaymentShippingForPaymentKindSoapIn" />
+      <wsdl:output message="tns:MSMViewGetPaymentShippingForPaymentKindSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForPaymentKindMuti">
+      <wsdl:input message="tns:MSMViewGetPaymentShippingForPaymentKindMutiSoapIn" />
+      <wsdl:output message="tns:MSMViewGetPaymentShippingForPaymentKindMutiSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingCheck">
+      <wsdl:input message="tns:MSMViewGetPaymentShippingCheckSoapIn" />
+      <wsdl:output message="tns:MSMViewGetPaymentShippingCheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingCheck1">
+      <wsdl:input message="tns:MSMViewGetPaymentShippingCheck1SoapIn" />
+      <wsdl:output message="tns:MSMViewGetPaymentShippingCheck1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForGroup">
+      <wsdl:input message="tns:MSMViewGetPaymentShippingForGroupSoapIn" />
+      <wsdl:output message="tns:MSMViewGetPaymentShippingForGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForGroup1">
+      <wsdl:input message="tns:MSMViewGetPaymentShippingForGroup1SoapIn" />
+      <wsdl:output message="tns:MSMViewGetPaymentShippingForGroup1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPMallStorePointsTradeDetailInsert">
+      <wsdl:input message="tns:MSMSPMallStorePointsTradeDetailInsertSoapIn" />
+      <wsdl:output message="tns:MSMSPMallStorePointsTradeDetailInsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPMallStorePointsTradeDetailUpdate">
+      <wsdl:input message="tns:MSMSPMallStorePointsTradeDetailUpdateSoapIn" />
+      <wsdl:output message="tns:MSMSPMallStorePointsTradeDetailUpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPGetOrderByOrderId">
+      <wsdl:input message="tns:MSMSPGetOrderByOrderIdSoapIn" />
+      <wsdl:output message="tns:MSMSPGetOrderByOrderIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_View_Mall_TrackDetail">
+      <wsdl:input message="tns:MSM_View_Mall_TrackDetailSoapIn" />
+      <wsdl:output message="tns:MSM_View_Mall_TrackDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_TrackDetail_Insert">
+      <wsdl:input message="tns:MSM_SP_Mall_TrackDetail_InsertSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_TrackDetail_InsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DoBillingAuthCode">
+      <wsdl:input message="tns:DoBillingAuthCodeSoapIn" />
+      <wsdl:output message="tns:DoBillingAuthCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthCode">
+      <wsdl:input message="tns:GetAuthCodeSoapIn" />
+      <wsdl:output message="tns:GetAuthCodeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QueryTradeBilling">
+      <wsdl:input message="tns:QueryTradeBillingSoapIn" />
+      <wsdl:output message="tns:QueryTradeBillingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_View_GetOrderDetailEnd">
+      <wsdl:input message="tns:MSM_View_GetOrderDetailEndSoapIn" />
+      <wsdl:output message="tns:MSM_View_GetOrderDetailEndSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_View_GetOrderDetail">
+      <wsdl:input message="tns:MSM_View_GetOrderDetailSoapIn" />
+      <wsdl:output message="tns:MSM_View_GetOrderDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetHomeDeliveryDetail">
+      <wsdl:input message="tns:View_Mall_GetHomeDeliveryDetailSoapIn" />
+      <wsdl:output message="tns:View_Mall_GetHomeDeliveryDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ProductClick_Update">
+      <wsdl:input message="tns:MSM_SP_Mall_ProductClick_UpdateSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_ProductClick_UpdateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertTrackDetail">
+      <wsdl:input message="tns:InsertTrackDetailSoapIn" />
+      <wsdl:output message="tns:InsertTrackDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_TrackDetailDelete">
+      <wsdl:input message="tns:MSM_SP_TrackDetailDeleteSoapIn" />
+      <wsdl:output message="tns:MSM_SP_TrackDetailDeleteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_GetProduct_FromProductTypeSn">
+      <wsdl:input message="tns:MSM_SP_GetProduct_FromProductTypeSnSoapIn" />
+      <wsdl:output message="tns:MSM_SP_GetProduct_FromProductTypeSnSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SPM_View_GetProductType">
+      <wsdl:input message="tns:SPM_View_GetProductTypeSoapIn" />
+      <wsdl:output message="tns:SPM_View_GetProductTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_GetBackOrderInfo">
+      <wsdl:input message="tns:MSM_SP_Mall_GetBackOrderInfoSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_GetBackOrderInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_Products">
+      <wsdl:input message="tns:View_Mall_ProductsSoapIn" />
+      <wsdl:output message="tns:View_Mall_ProductsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_ProductsSize">
+      <wsdl:input message="tns:View_Mall_ProductsSizeSoapIn" />
+      <wsdl:output message="tns:View_Mall_ProductsSizeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_InvoiceData_Insert">
+      <wsdl:input message="tns:MSM_SP_Mall_InvoiceData_InsertSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_InvoiceData_InsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCommercial">
+      <wsdl:input message="tns:GetCommercialSoapIn" />
+      <wsdl:output message="tns:GetCommercialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOtherCommercial">
+      <wsdl:input message="tns:GetOtherCommercialSoapIn" />
+      <wsdl:output message="tns:GetOtherCommercialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCommercial_FromStoreTypeSn">
+      <wsdl:input message="tns:GetCommercial_FromStoreTypeSnSoapIn" />
+      <wsdl:output message="tns:GetCommercial_FromStoreTypeSnSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCard_Mall_MemberQueryAddressData">
+      <wsdl:input message="tns:MyCard_Mall_MemberQueryAddressDataSoapIn" />
+      <wsdl:output message="tns:MyCard_Mall_MemberQueryAddressDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_StorePoints_TradeDetail">
+      <wsdl:input message="tns:View_Mall_StorePoints_TradeDetailSoapIn" />
+      <wsdl:output message="tns:View_Mall_StorePoints_TradeDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMyCard_AnnouncementView">
+      <wsdl:input message="tns:GetMyCard_AnnouncementViewSoapIn" />
+      <wsdl:output message="tns:GetMyCard_AnnouncementViewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_NewMall_ShopCart_Check_forOther">
+      <wsdl:input message="tns:MSM_SP_NewMall_ShopCart_Check_forOtherSoapIn" />
+      <wsdl:output message="tns:MSM_SP_NewMall_ShopCart_Check_forOtherSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetView_Mall_GetBillingReSaveInfo">
+      <wsdl:input message="tns:GetView_Mall_GetBillingReSaveInfoSoapIn" />
+      <wsdl:output message="tns:GetView_Mall_GetBillingReSaveInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_GetBackOrderInfo">
+      <wsdl:input message="tns:MSM_SP_GetBackOrderInfoSoapIn" />
+      <wsdl:output message="tns:MSM_SP_GetBackOrderInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_MagazineSection_Insert">
+      <wsdl:input message="tns:MSM_SP_Mall_MagazineSection_InsertSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_MagazineSection_InsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardApp_ShopCart_GetBagInfoByBagID">
+      <wsdl:input message="tns:MyCardApp_ShopCart_GetBagInfoByBagIDSoapIn" />
+      <wsdl:output message="tns:MyCardApp_ShopCart_GetBagInfoByBagIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_GetOrderDetail_A02">
+      <wsdl:input message="tns:MSM_SP_GetOrderDetail_A02SoapIn" />
+      <wsdl:output message="tns:MSM_SP_GetOrderDetail_A02SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_InvoiceDataGetToken">
+      <wsdl:input message="tns:MSM_SP_Mall_InvoiceDataGetTokenSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_InvoiceDataGetTokenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_InvoiceDataGetPaper">
+      <wsdl:input message="tns:MSM_SP_Mall_InvoiceDataGetPaperSoapIn" />
+      <wsdl:output message="tns:MSM_SP_Mall_InvoiceDataGetPaperSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBanner">
+      <wsdl:input message="tns:GetBannerSoapIn" />
+      <wsdl:output message="tns:GetBannerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_NewMall_Order_Senao_Insert">
+      <wsdl:input message="tns:MSM_SP_NewMall_Order_Senao_InsertSoapIn" />
+      <wsdl:output message="tns:MSM_SP_NewMall_Order_Senao_InsertSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ShopMallServiceSoap" type="tns:ShopMallServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ViewGetProductType">
+      <soap:operation soapAction="http://tempuri.org/ViewGetProductType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewGetStoreType">
+      <soap:operation soapAction="http://tempuri.org/ViewGetStoreType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPGetProductFromStoreTypeSn">
+      <soap:operation soapAction="http://tempuri.org/MSMSPGetProductFromStoreTypeSn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewMallColumnsPriority">
+      <soap:operation soapAction="http://tempuri.org/ViewMallColumnsPriority" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SPMallOrderQuery">
+      <soap:operation soapAction="http://tempuri.org/SPMallOrderQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_Products_TOP5">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_Products_TOP5" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_CommercialType">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_CommercialType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_Commercialinfo">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_Commercialinfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Member_ContactList">
+      <soap:operation soapAction="http://tempuri.org/View_Member_ContactList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SP_Member_ContactListInsert">
+      <soap:operation soapAction="http://tempuri.org/SP_Member_ContactListInsert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SP_Member_ContactListUpdate">
+      <soap:operation soapAction="http://tempuri.org/SP_Member_ContactListUpdate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreType">
+      <soap:operation soapAction="http://tempuri.org/GetStoreType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSn">
+      <soap:operation soapAction="http://tempuri.org/GetDataSn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getnode">
+      <soap:operation soapAction="http://tempuri.org/Getnode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPGetProductPageInfoProductHtmlContent">
+      <soap:operation soapAction="http://tempuri.org/MSMSPGetProductPageInfoProductHtmlContent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Products_Query">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Products_Query" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_GetProductSize">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_GetProductSize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_NewMall_ShopCart_Check">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_NewMall_ShopCart_Check" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ShopCart_Insert">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_ShopCart_Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertShopCart_New">
+      <soap:operation soapAction="http://tempuri.org/InsertShopCart_New" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ShopCartUpdate">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_ShopCartUpdate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ShopCartDelete">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_ShopCartDelete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetShopCart_ForCount">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_GetShopCart_ForCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetOrderDetail">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_GetOrderDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetTempOrderDetail">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_GetTempOrderDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetTempOrderDetail_ForCount">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_GetTempOrderDetail_ForCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetOrderDetail_ForCount">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_GetOrderDetail_ForCount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_TextCommercial">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_TextCommercial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShipping">
+      <soap:operation soapAction="http://tempuri.org/MSMViewGetPaymentShipping" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingMuti">
+      <soap:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingMuti" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForPaymentKind">
+      <soap:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingForPaymentKind" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForPaymentKindMuti">
+      <soap:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingForPaymentKindMuti" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingCheck">
+      <soap:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingCheck1">
+      <soap:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingCheck1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForGroup">
+      <soap:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingForGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForGroup1">
+      <soap:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingForGroup1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPMallStorePointsTradeDetailInsert">
+      <soap:operation soapAction="http://tempuri.org/MSMSPMallStorePointsTradeDetailInsert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPMallStorePointsTradeDetailUpdate">
+      <soap:operation soapAction="http://tempuri.org/MSMSPMallStorePointsTradeDetailUpdate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPGetOrderByOrderId">
+      <soap:operation soapAction="http://tempuri.org/MSMSPGetOrderByOrderId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_View_Mall_TrackDetail">
+      <soap:operation soapAction="http://tempuri.org/MSM_View_Mall_TrackDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_TrackDetail_Insert">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_TrackDetail_Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoBillingAuthCode">
+      <soap:operation soapAction="http://tempuri.org/DoBillingAuthCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthCode">
+      <soap:operation soapAction="http://tempuri.org/GetAuthCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryTradeBilling">
+      <soap:operation soapAction="http://tempuri.org/QueryTradeBilling" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_View_GetOrderDetailEnd">
+      <soap:operation soapAction="http://tempuri.org/MSM_View_GetOrderDetailEnd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_View_GetOrderDetail">
+      <soap:operation soapAction="http://tempuri.org/MSM_View_GetOrderDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetHomeDeliveryDetail">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_GetHomeDeliveryDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ProductClick_Update">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_ProductClick_Update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTrackDetail">
+      <soap:operation soapAction="http://tempuri.org/InsertTrackDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_TrackDetailDelete">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_TrackDetailDelete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_GetProduct_FromProductTypeSn">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_GetProduct_FromProductTypeSn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SPM_View_GetProductType">
+      <soap:operation soapAction="http://tempuri.org/SPM_View_GetProductType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_GetBackOrderInfo">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_GetBackOrderInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_Products">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_Products" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_ProductsSize">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_ProductsSize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_InvoiceData_Insert">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_InvoiceData_Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommercial">
+      <soap:operation soapAction="http://tempuri.org/GetCommercial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOtherCommercial">
+      <soap:operation soapAction="http://tempuri.org/GetOtherCommercial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommercial_FromStoreTypeSn">
+      <soap:operation soapAction="http://tempuri.org/GetCommercial_FromStoreTypeSn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCard_Mall_MemberQueryAddressData">
+      <soap:operation soapAction="http://tempuri.org/MyCard_Mall_MemberQueryAddressData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_StorePoints_TradeDetail">
+      <soap:operation soapAction="http://tempuri.org/View_Mall_StorePoints_TradeDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyCard_AnnouncementView">
+      <soap:operation soapAction="http://tempuri.org/GetMyCard_AnnouncementView" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_NewMall_ShopCart_Check_forOther">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_NewMall_ShopCart_Check_forOther" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetView_Mall_GetBillingReSaveInfo">
+      <soap:operation soapAction="http://tempuri.org/GetView_Mall_GetBillingReSaveInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_GetBackOrderInfo">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_GetBackOrderInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_MagazineSection_Insert">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_MagazineSection_Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardApp_ShopCart_GetBagInfoByBagID">
+      <soap:operation soapAction="http://tempuri.org/MyCardApp_ShopCart_GetBagInfoByBagID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_GetOrderDetail_A02">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_GetOrderDetail_A02" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_InvoiceDataGetToken">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_InvoiceDataGetToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_InvoiceDataGetPaper">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_Mall_InvoiceDataGetPaper" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBanner">
+      <soap:operation soapAction="http://tempuri.org/GetBanner" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_NewMall_Order_Senao_Insert">
+      <soap:operation soapAction="http://tempuri.org/MSM_SP_NewMall_Order_Senao_Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ShopMallServiceSoap12" type="tns:ShopMallServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ViewGetProductType">
+      <soap12:operation soapAction="http://tempuri.org/ViewGetProductType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewGetStoreType">
+      <soap12:operation soapAction="http://tempuri.org/ViewGetStoreType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPGetProductFromStoreTypeSn">
+      <soap12:operation soapAction="http://tempuri.org/MSMSPGetProductFromStoreTypeSn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewMallColumnsPriority">
+      <soap12:operation soapAction="http://tempuri.org/ViewMallColumnsPriority" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SPMallOrderQuery">
+      <soap12:operation soapAction="http://tempuri.org/SPMallOrderQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_Products_TOP5">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_Products_TOP5" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_CommercialType">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_CommercialType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_Commercialinfo">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_Commercialinfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Member_ContactList">
+      <soap12:operation soapAction="http://tempuri.org/View_Member_ContactList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SP_Member_ContactListInsert">
+      <soap12:operation soapAction="http://tempuri.org/SP_Member_ContactListInsert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SP_Member_ContactListUpdate">
+      <soap12:operation soapAction="http://tempuri.org/SP_Member_ContactListUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStoreType">
+      <soap12:operation soapAction="http://tempuri.org/GetStoreType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataSn">
+      <soap12:operation soapAction="http://tempuri.org/GetDataSn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Getnode">
+      <soap12:operation soapAction="http://tempuri.org/Getnode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPGetProductPageInfoProductHtmlContent">
+      <soap12:operation soapAction="http://tempuri.org/MSMSPGetProductPageInfoProductHtmlContent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Products_Query">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Products_Query" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_GetProductSize">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_GetProductSize" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_NewMall_ShopCart_Check">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_NewMall_ShopCart_Check" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ShopCart_Insert">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_ShopCart_Insert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertShopCart_New">
+      <soap12:operation soapAction="http://tempuri.org/InsertShopCart_New" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ShopCartUpdate">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_ShopCartUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ShopCartDelete">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_ShopCartDelete" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetShopCart_ForCount">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_GetShopCart_ForCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetOrderDetail">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_GetOrderDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetTempOrderDetail">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_GetTempOrderDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetTempOrderDetail_ForCount">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_GetTempOrderDetail_ForCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetOrderDetail_ForCount">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_GetOrderDetail_ForCount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_TextCommercial">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_TextCommercial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShipping">
+      <soap12:operation soapAction="http://tempuri.org/MSMViewGetPaymentShipping" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingMuti">
+      <soap12:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingMuti" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForPaymentKind">
+      <soap12:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingForPaymentKind" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForPaymentKindMuti">
+      <soap12:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingForPaymentKindMuti" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingCheck">
+      <soap12:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingCheck1">
+      <soap12:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingCheck1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForGroup">
+      <soap12:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingForGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMViewGetPaymentShippingForGroup1">
+      <soap12:operation soapAction="http://tempuri.org/MSMViewGetPaymentShippingForGroup1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPMallStorePointsTradeDetailInsert">
+      <soap12:operation soapAction="http://tempuri.org/MSMSPMallStorePointsTradeDetailInsert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPMallStorePointsTradeDetailUpdate">
+      <soap12:operation soapAction="http://tempuri.org/MSMSPMallStorePointsTradeDetailUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSMSPGetOrderByOrderId">
+      <soap12:operation soapAction="http://tempuri.org/MSMSPGetOrderByOrderId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_View_Mall_TrackDetail">
+      <soap12:operation soapAction="http://tempuri.org/MSM_View_Mall_TrackDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_TrackDetail_Insert">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_TrackDetail_Insert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoBillingAuthCode">
+      <soap12:operation soapAction="http://tempuri.org/DoBillingAuthCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAuthCode">
+      <soap12:operation soapAction="http://tempuri.org/GetAuthCode" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QueryTradeBilling">
+      <soap12:operation soapAction="http://tempuri.org/QueryTradeBilling" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_View_GetOrderDetailEnd">
+      <soap12:operation soapAction="http://tempuri.org/MSM_View_GetOrderDetailEnd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_View_GetOrderDetail">
+      <soap12:operation soapAction="http://tempuri.org/MSM_View_GetOrderDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_GetHomeDeliveryDetail">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_GetHomeDeliveryDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_ProductClick_Update">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_ProductClick_Update" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTrackDetail">
+      <soap12:operation soapAction="http://tempuri.org/InsertTrackDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_TrackDetailDelete">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_TrackDetailDelete" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_GetProduct_FromProductTypeSn">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_GetProduct_FromProductTypeSn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SPM_View_GetProductType">
+      <soap12:operation soapAction="http://tempuri.org/SPM_View_GetProductType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_GetBackOrderInfo">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_GetBackOrderInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_Products">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_Products" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_ProductsSize">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_ProductsSize" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_InvoiceData_Insert">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_InvoiceData_Insert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommercial">
+      <soap12:operation soapAction="http://tempuri.org/GetCommercial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOtherCommercial">
+      <soap12:operation soapAction="http://tempuri.org/GetOtherCommercial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCommercial_FromStoreTypeSn">
+      <soap12:operation soapAction="http://tempuri.org/GetCommercial_FromStoreTypeSn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCard_Mall_MemberQueryAddressData">
+      <soap12:operation soapAction="http://tempuri.org/MyCard_Mall_MemberQueryAddressData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="View_Mall_StorePoints_TradeDetail">
+      <soap12:operation soapAction="http://tempuri.org/View_Mall_StorePoints_TradeDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMyCard_AnnouncementView">
+      <soap12:operation soapAction="http://tempuri.org/GetMyCard_AnnouncementView" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_NewMall_ShopCart_Check_forOther">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_NewMall_ShopCart_Check_forOther" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetView_Mall_GetBillingReSaveInfo">
+      <soap12:operation soapAction="http://tempuri.org/GetView_Mall_GetBillingReSaveInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_GetBackOrderInfo">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_GetBackOrderInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_MagazineSection_Insert">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_MagazineSection_Insert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardApp_ShopCart_GetBagInfoByBagID">
+      <soap12:operation soapAction="http://tempuri.org/MyCardApp_ShopCart_GetBagInfoByBagID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_GetOrderDetail_A02">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_GetOrderDetail_A02" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_InvoiceDataGetToken">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_InvoiceDataGetToken" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_Mall_InvoiceDataGetPaper">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_Mall_InvoiceDataGetPaper" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBanner">
+      <soap12:operation soapAction="http://tempuri.org/GetBanner" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MSM_SP_NewMall_Order_Senao_Insert">
+      <soap12:operation soapAction="http://tempuri.org/MSM_SP_NewMall_Order_Senao_Insert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ShopMallService">
+    <wsdl:port name="ShopMallServiceSoap" binding="tns:ShopMallServiceSoap">
+      <soap:address location="http://10.16.1.247:8083/MSMWebServiceNew/ShopMallService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ShopMallServiceSoap12" binding="tns:ShopMallServiceSoap12">
+      <soap12:address location="http://10.16.1.247:8083/MSMWebServiceNew/ShopMallService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,10 @@
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\bin\Debug\WinFormSitemap.exe.config
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\bin\Debug\WinFormSitemap.exe
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\bin\Debug\WinFormSitemap.pdb
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\bin\Debug\WinFormSitemap.xml
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\obj\x86\Debug\WinFormSitemap.Form1.resources
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\obj\x86\Debug\WinFormSitemap.Resources.resources
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\obj\x86\Debug\WinFormSitemap.vbproj.GenerateResource.Cache
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\obj\x86\Debug\WinFormSitemap.exe
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\obj\x86\Debug\WinFormSitemap.xml
+D:\Project\MyCardBackWeb\WinFormSitemap\WinFormSitemap\obj\x86\Debug\WinFormSitemap.pdb
