@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+此檔案是由您 Web 專案的發行/封裝處理程序所使用。您可以編輯此 MSBuild 檔案，
+以自訂此處理程序的行為。若要深入了解，請造訪 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\WebService\MyCardPointsApiWcf</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/18/2015 18:00:20</publishTime>
+    </File>
+    <File Include="bin/MyCardConn.dll">
+      <publishTime>07/11/2012 17:52:00</publishTime>
+    </File>
+    <File Include="bin/WcfMyCardPointsApi.dll">
+      <publishTime>08/19/2015 10:42:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/EntityFramework.resources.dll">
+      <publishTime>08/18/2015 14:00:04</publishTime>
+    </File>
+    <File Include="OGB_DB_CARD.edmx.diagram">
+      <publishTime>08/18/2015 18:00:37</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/18/2015 18:00:22</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>08/19/2015 10:37:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/19/2015 10:45:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

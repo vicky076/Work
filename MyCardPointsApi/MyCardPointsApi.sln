@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCardPointsApi", "MyCardPointsApi\MyCardPointsApi.csproj", "{E53F379F-A350-46C0-B9CB-F8AF827E7D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCardPointsApiWcf", "MyCardPointsApiWcf\MyCardPointsApiWcf.csproj", "{7FA9F9C5-6C6A-4455-B4CE-9533B0A1426A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://foundation2008:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MyCardPointsApi\\MyCardPointsApi.csproj
+		SccProjectName1 = MyCardPointsApi
+		SccLocalPath1 = MyCardPointsApi
+		SccProjectUniqueName2 = MyCardPointsApiWcf\\MyCardPointsApiWcf.csproj
+		SccProjectName2 = MyCardPointsApiWcf
+		SccLocalPath2 = MyCardPointsApiWcf
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E53F379F-A350-46C0-B9CB-F8AF827E7D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53F379F-A350-46C0-B9CB-F8AF827E7D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53F379F-A350-46C0-B9CB-F8AF827E7D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53F379F-A350-46C0-B9CB-F8AF827E7D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA9F9C5-6C6A-4455-B4CE-9533B0A1426A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA9F9C5-6C6A-4455-B4CE-9533B0A1426A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA9F9C5-6C6A-4455-B4CE-9533B0A1426A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA9F9C5-6C6A-4455-B4CE-9533B0A1426A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+D:\Project\API\MyCardPointsApi\MyCardPointsApiWcf\bin\MyCardPointsApiWcf.dll
+D:\Project\API\MyCardPointsApi\MyCardPointsApiWcf\bin\MyCardPointsApiWcf.pdb
+D:\Project\API\MyCardPointsApi\MyCardPointsApiWcf\bin\EntityFramework.dll
+D:\Project\API\MyCardPointsApi\MyCardPointsApiWcf\bin\MyCardConn.dll
+D:\Project\API\MyCardPointsApi\MyCardPointsApiWcf\bin\EntityFramework.xml
+D:\Project\API\MyCardPointsApi\MyCardPointsApiWcf\bin\zh-Hant\EntityFramework.resources.dll
+D:\Project\API\MyCardPointsApi\MyCardPointsApiWcf\obj\Debug\MyCardPointsApiWcf.csprojResolveAssemblyReference.cache
+D:\Project\API\MyCardPointsApi\MyCardPointsApiWcf\obj\Debug\MyCardPointsApiWcf.dll
+D:\Project\API\MyCardPointsApi\MyCardPointsApiWcf\obj\Debug\MyCardPointsApiWcf.pdb

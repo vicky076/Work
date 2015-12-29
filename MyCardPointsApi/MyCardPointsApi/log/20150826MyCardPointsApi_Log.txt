@@ -1,0 +1,54 @@
+2015/8/26 下午 02:57:04	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery/GTAA/GTAA|參數InputValue|[MyCardNo:GTAA][GameServiceId:GTAA]
+2015/8/26 下午 02:57:47	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery/GTAA|參數InputValue|[MyCardNo:GTAA][GameServiceId:]
+2015/8/26 下午 02:57:48	CheckMyCardForCardPoint查詢失敗|參數|[MyCardNo:GTAA][GameServiceId:GTAA][userIp:127.0.0.1]|EX|System.ServiceModel.FaultException: 由於內部錯誤，因此伺服器無法處理要求。若需有關錯誤的詳細資訊，請在用戶端開啟 IncludeExceptionDetailInFaults (從 ServiceBehaviorAttribute 或從 <serviceDebug> 組態行為) 以便將例外狀況資訊傳回用戶端，或是依照 Microsoft .NET Framework SDK 文件開啟追蹤並檢查伺服器追蹤記錄檔。
+
+Server stack trace: 
+   於 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   於 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   於 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   於 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   於 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   於 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   於 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   於 MyCardPointsApi.ServiceReference1.IService1.CheckMyCardForCardPoint(String MyCardNo, String GameServiceId, String GameServiceIp)
+   於 MyCardPointsApi.ServiceReference1.Service1Client.CheckMyCardForCardPoint(String MyCardNo, String GameServiceId, String GameServiceIp) 於 d:\Project\API\MyCardPointsApi\MyCardPointsApi\Service References\ServiceReference1\Reference.cs: 行 177
+   於 MyCardPointsApi.Controllers.apiController.MyCardQuery(String MyCardNo, String GameServiceId) 於 d:\Project\API\MyCardPointsApi\MyCardPointsApi\Controllers\apiController.cs: 行 64
+2015/8/26 下午 02:58:25	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]
+2015/8/26 下午 02:58:37	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]
+2015/8/26 下午 02:58:40	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery/GTAA/GTAA|參數InputValue|[MyCardNo:GTAA][GameServiceId:GTAA]
+2015/8/26 下午 02:59:16	CheckMyCardForCardPoint查詢失敗|參數|[MyCardNo:GTAA][GameServiceId:GTAA][userIp:127.0.0.1]|EX|System.ServiceModel.FaultException: 由於內部錯誤，因此伺服器無法處理要求。若需有關錯誤的詳細資訊，請在用戶端開啟 IncludeExceptionDetailInFaults (從 ServiceBehaviorAttribute 或從 <serviceDebug> 組態行為) 以便將例外狀況資訊傳回用戶端，或是依照 Microsoft .NET Framework SDK 文件開啟追蹤並檢查伺服器追蹤記錄檔。
+
+Server stack trace: 
+   於 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   於 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   於 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   於 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   於 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   於 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   於 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   於 MyCardPointsApi.ServiceReference1.IService1.CheckMyCardForCardPoint(String MyCardNo, String GameServiceId, String GameServiceIp)
+   於 MyCardPointsApi.ServiceReference1.Service1Client.CheckMyCardForCardPoint(String MyCardNo, String GameServiceId, String GameServiceIp) 於 d:\Project\API\MyCardPointsApi\MyCardPointsApi\Service References\ServiceReference1\Reference.cs: 行 177
+   於 MyCardPointsApi.Controllers.apiController.MyCardQuery(String MyCardNo, String GameServiceId) 於 d:\Project\API\MyCardPointsApi\MyCardPointsApi\Controllers\apiController.cs: 行 64
+2015/8/26 下午 03:02:43	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]
+2015/8/26 下午 03:02:47	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery/GTAA/GTAA|參數InputValue|[MyCardNo:GTAA][GameServiceId:GTAA]
+2015/8/26 下午 03:03:03	CheckMyCardForCardPoint查詢失敗|參數|[MyCardNo:GTAA][GameServiceId:GTAA][userIp:127.0.0.1]|EX|System.ServiceModel.FaultException: 由於內部錯誤，因此伺服器無法處理要求。若需有關錯誤的詳細資訊，請在用戶端開啟 IncludeExceptionDetailInFaults (從 ServiceBehaviorAttribute 或從 <serviceDebug> 組態行為) 以便將例外狀況資訊傳回用戶端，或是依照 Microsoft .NET Framework SDK 文件開啟追蹤並檢查伺服器追蹤記錄檔。
+
+Server stack trace: 
+   於 System.ServiceModel.Channels.ServiceChannel.ThrowIfFaultUnderstood(Message reply, MessageFault fault, String action, MessageVersion version, FaultConverter faultConverter)
+   於 System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   於 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   於 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   於 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   於 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   於 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   於 MyCardPointsApi.ServiceReference1.IService1.CheckMyCardForCardPoint(String MyCardNo, String GameServiceId, String GameServiceIp)
+   於 MyCardPointsApi.ServiceReference1.Service1Client.CheckMyCardForCardPoint(String MyCardNo, String GameServiceId, String GameServiceIp) 於 d:\Project\API\MyCardPointsApi\MyCardPointsApi\Service References\ServiceReference1\Reference.cs: 行 177
+   於 MyCardPointsApi.Controllers.apiController.MyCardQuery(String MyCardNo, String GameServiceId) 於 d:\Project\API\MyCardPointsApi\MyCardPointsApi\Controllers\apiController.cs: 行 64
+2015/8/26 下午 03:09:02	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]
+2015/8/26 下午 03:09:08	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery/GTAA/GTAA|參數InputValue|[MyCardNo:GTAA][GameServiceId:GTAA]

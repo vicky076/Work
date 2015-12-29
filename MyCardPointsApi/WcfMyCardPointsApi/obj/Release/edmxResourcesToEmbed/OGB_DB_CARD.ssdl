@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OGB_DB_CARDModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="OGB_DB_CARDModelStoreContainer" />
+  <Function Name="CheckMyCardForCardPoint" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MyCardNo" Type="varchar" Mode="In" />
+    <Parameter Name="GameServiceId" Type="varchar" Mode="In" />
+    <Parameter Name="GameServiceIp" Type="varchar" Mode="In" />
+    <Parameter Name="Currency" Type="varchar" Mode="InOut" />
+    <Parameter Name="CardPrice" Type="decimal" Mode="InOut" />
+    <Parameter Name="ReturnMsgNo" Type="int" Mode="InOut" />
+    <Parameter Name="ReturnMsg" Type="nvarchar" Mode="InOut" />
+    <Parameter Name="ErrorCode" Type="varchar" Mode="InOut" />
+    <Parameter Name="LogSn" Type="int" Mode="InOut" />
+  </Function>
+</Schema>

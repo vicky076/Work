@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MyCardPointsApiWcf" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MyCardPointsApiWcf" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfCheckMyCardForCardPoint">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CheckMyCardForCardPoint" nillable="true" type="tns:CheckMyCardForCardPoint" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCheckMyCardForCardPoint" nillable="true" type="tns:ArrayOfCheckMyCardForCardPoint" />
+  <xs:complexType name="CheckMyCardForCardPoint">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CardPrice" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Currency" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ErrorCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LogSn" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnMsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnMsgNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CheckMyCardForCardPoint" nillable="true" type="tns:CheckMyCardForCardPoint" />
+</xs:schema>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MyCardSystemErrorLog" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MyCardSystemErrorLog" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="ErrorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SP" />
+      <xs:enumeration value="VIEW" />
+      <xs:enumeration value="WS" />
+      <xs:enumeration value="WEB" />
+      <xs:enumeration value="WINFORM" />
+      <xs:enumeration value="OTHER" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ErrorType" nillable="true" type="tns:ErrorType" />
+  <xs:simpleType name="FaultType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Web一般錯誤" />
+      <xs:enumeration value="Web例外錯誤" />
+      <xs:enumeration value="WS一般錯誤" />
+      <xs:enumeration value="WS例外錯誤" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="FaultType" nillable="true" type="tns:FaultType" />
+  <xs:complexType name="MyCardSystemErrorLogResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ReturnErrorCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnLogSn" type="xs:int" />
+      <xs:element minOccurs="0" name="ReturnMsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnMsgNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyCardSystemErrorLogResult" nillable="true" type="tns:MyCardSystemErrorLogResult" />
+  <xs:complexType name="MyCardSystemErrorLogQueryResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ReturnErrorCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnErrorMsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnMsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ReturnMsgNo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyCardSystemErrorLogQueryResult" nillable="true" type="tns:MyCardSystemErrorLogQueryResult" />
+</xs:schema>

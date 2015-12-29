@@ -1,0 +1,7 @@
+2015/9/3 下午 06:22:24	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]|userIp:::1
+2015/9/3 下午 06:22:55	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]|userIp:::1
+2015/9/3 下午 06:23:09	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]|userIp:::1
+2015/9/3 下午 06:23:31	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]|userIp:::1
+2015/9/3 下午 06:23:36	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery/GTAA/GTAA|參數InputValue|[MyCardNo:GTAA][GameServiceId:GTAA]|userIp:::1
+2015/9/3 下午 06:29:29	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]|userIp:::1
+2015/9/3 下午 06:29:42	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery/AA/AA|參數InputValue|[MyCardNo:AA][GameServiceId:AA]|userIp:::1

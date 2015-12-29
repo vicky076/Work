@@ -1,0 +1,4 @@
+2015/9/14 下午 06:10:24	B2B-MyCardQuery起始:http://localhost:58034/|參數InputValue|[MyCardNo:][GameServiceId:]|userIp:127.0.0.1
+2015/9/14 下午 06:11:16	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery|參數InputValue|[MyCardNo:][GameServiceId:]|userIp:127.0.0.1
+2015/9/14 下午 06:11:48	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery|參數InputValue|[MyCardNo:][GameServiceId:]|userIp:127.0.0.1
+2015/9/14 下午 06:11:59	B2B-MyCardQuery起始:http://localhost:58034/api/MyCardQuery/1/1|參數InputValue|[MyCardNo:1][GameServiceId:1]|userIp:127.0.0.1

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+此檔案是由您 Web 專案的發行/封裝處理程序所使用。您可以編輯此 MSBuild 檔案，
+以自訂此處理程序的行為。若要深入了解，請造訪 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\WebProject\MyCardPointsApi</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/de/System.Spatial.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/19/2015 10:51:07</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/es/System.Spatial.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/fr/System.Spatial.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/it/System.Spatial.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/ja/System.Spatial.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/ko/System.Spatial.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Edm.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.OData.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>08/18/2015 13:59:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/MyCardPointsApi.dll">
+      <publishTime>09/03/2015 18:14:01</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/ru/System.Spatial.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/System.Spatial.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>08/18/2015 14:00:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.OData.dll">
+      <publishTime>08/18/2015 14:00:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Tracing.dll">
+      <publishTime>08/18/2015 14:00:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>08/18/2015 14:00:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>08/18/2015 14:00:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>08/18/2015 14:00:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>08/18/2015 13:59:59</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Spatial.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/EntityFramework.resources.dll">
+      <publishTime>08/18/2015 14:00:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Edm.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Net.Http.Formatting.resources.dll">
+      <publishTime>08/18/2015 14:00:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Net.Http.resources.dll">
+      <publishTime>08/18/2015 14:00:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Net.Http.WebRequest.resources.dll">
+      <publishTime>08/18/2015 14:00:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Spatial.resources.dll">
+      <publishTime>08/18/2015 14:00:01</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Helpers.resources.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Http.OData.resources.dll">
+      <publishTime>08/18/2015 14:00:05</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Http.resources.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Http.Tracing.resources.dll">
+      <publishTime>08/18/2015 14:00:05</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Http.WebHost.resources.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Mvc.resources.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Optimization.resources.dll">
+      <publishTime>08/18/2015 14:00:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Providers.resources.dll">
+      <publishTime>08/18/2015 14:00:04</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Razor.resources.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.WebPages.resources.dll">
+      <publishTime>08/18/2015 14:00:03</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>08/18/2015 13:59:55</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/18/2015 13:59:55</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>08/18/2015 14:00:05</publishTime>
+    </File>
+    <File Include="Service References/ErrorLog_WS/configuration.svcinfo">
+      <publishTime>08/18/2015 14:32:05</publishTime>
+    </File>
+    <File Include="Service References/ErrorLog_WS/configuration91.svcinfo">
+      <publishTime>08/18/2015 14:32:05</publishTime>
+    </File>
+    <File Include="Service References/ErrorLog_WS/MyCardPointsApi.ErrorLog_WS.MyCardSystemErrorLogQueryResult.datasource">
+      <publishTime>08/18/2015 14:32:09</publishTime>
+    </File>
+    <File Include="Service References/ErrorLog_WS/MyCardPointsApi.ErrorLog_WS.MyCardSystemErrorLogResult.datasource">
+      <publishTime>08/18/2015 14:32:08</publishTime>
+    </File>
+    <File Include="Service References/ErrorLog_WS/Reference.svcmap">
+      <publishTime>08/18/2015 14:32:06</publishTime>
+    </File>
+    <File Include="Service References/ErrorLog_WS/SystemErrorLogService.disco">
+      <publishTime>08/18/2015 14:32:05</publishTime>
+    </File>
+    <File Include="Service References/ErrorLog_WS/SystemErrorLogService.wsdl">
+      <publishTime>08/18/2015 14:32:05</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/configuration.svcinfo">
+      <publishTime>08/19/2015 15:57:07</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/configuration91.svcinfo">
+      <publishTime>08/19/2015 15:57:07</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/MyCardPointsApi.ServiceReference1.CheckMyCardForCardPoint.datasource">
+      <publishTime>08/26/2015 15:08:42</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/Reference.svcmap">
+      <publishTime>08/19/2015 15:57:07</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/Service1.disco">
+      <publishTime>08/19/2015 15:57:07</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/Service1.wsdl">
+      <publishTime>08/19/2015 15:57:07</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/18/2015 13:59:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/19/2015 18:01:39</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
