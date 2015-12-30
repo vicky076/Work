@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="autorun" Type="System.String" Scope="User">
+      <Value Profile="(Default)">false</Value>
+    </Setting>
+    <Setting Name="Country" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TWN,HKG,MYS,SGP,THA,PHL,VNM,IDN</Value>
+    </Setting>
+    <Setting Name="GameFacId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="GMGReport_GMGService_GMGService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.16.1.247/GMGService/GMGService.asmx</Value>
+    </Setting>
+    <Setting Name="RunScheduleTime" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1132</Value>
+    </Setting>
+    <Setting Name="RunVBSDate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2014/12/22</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

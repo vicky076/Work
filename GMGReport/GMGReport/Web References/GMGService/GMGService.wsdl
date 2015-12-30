@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="View_MyCardCPSave_ScheduleCheck">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GameFacId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="View_MyCardCPSave_ScheduleCheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="View_MyCardCPSave_ScheduleCheckResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardCPSave_CPTempData_Insert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PrcType" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CP_TradeSeq" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Item" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Price" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="SaveDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardCPSave_CPTempData_InsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCPSave_CPTempData_InsertResult" type="tns:ReturnValue" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ReturnValue">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnMsgNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnDS">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MyCardCPSave_Difference_Proc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GameFacId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameSerId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="SaveStartDate" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="SaveEndDate" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardCPSave_Difference_ProcResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCPSave_Difference_ProcResult" type="tns:ReturnValue" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardCPSave_ScheduleCheck_UpdateStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Sn" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserStamp" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardCPSave_ScheduleCheck_UpdateStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCPSave_ScheduleCheck_UpdateStatusResult" type="tns:ReturnValue" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="View_MyCardCPSave_ScheduleCheckSoapIn">
+    <wsdl:part name="parameters" element="tns:View_MyCardCPSave_ScheduleCheck" />
+  </wsdl:message>
+  <wsdl:message name="View_MyCardCPSave_ScheduleCheckSoapOut">
+    <wsdl:part name="parameters" element="tns:View_MyCardCPSave_ScheduleCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="MyCardCPSave_CPTempData_InsertSoapIn">
+    <wsdl:part name="parameters" element="tns:MyCardCPSave_CPTempData_Insert" />
+  </wsdl:message>
+  <wsdl:message name="MyCardCPSave_CPTempData_InsertSoapOut">
+    <wsdl:part name="parameters" element="tns:MyCardCPSave_CPTempData_InsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="MyCardCPSave_Difference_ProcSoapIn">
+    <wsdl:part name="parameters" element="tns:MyCardCPSave_Difference_Proc" />
+  </wsdl:message>
+  <wsdl:message name="MyCardCPSave_Difference_ProcSoapOut">
+    <wsdl:part name="parameters" element="tns:MyCardCPSave_Difference_ProcResponse" />
+  </wsdl:message>
+  <wsdl:message name="MyCardCPSave_ScheduleCheck_UpdateStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:MyCardCPSave_ScheduleCheck_UpdateStatus" />
+  </wsdl:message>
+  <wsdl:message name="MyCardCPSave_ScheduleCheck_UpdateStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:MyCardCPSave_ScheduleCheck_UpdateStatusResponse" />
+  </wsdl:message>
+  <wsdl:portType name="GMGServiceSoap">
+    <wsdl:operation name="View_MyCardCPSave_ScheduleCheck">
+      <wsdl:input message="tns:View_MyCardCPSave_ScheduleCheckSoapIn" />
+      <wsdl:output message="tns:View_MyCardCPSave_ScheduleCheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardCPSave_CPTempData_Insert">
+      <wsdl:input message="tns:MyCardCPSave_CPTempData_InsertSoapIn" />
+      <wsdl:output message="tns:MyCardCPSave_CPTempData_InsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardCPSave_Difference_Proc">
+      <wsdl:input message="tns:MyCardCPSave_Difference_ProcSoapIn" />
+      <wsdl:output message="tns:MyCardCPSave_Difference_ProcSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardCPSave_ScheduleCheck_UpdateStatus">
+      <wsdl:input message="tns:MyCardCPSave_ScheduleCheck_UpdateStatusSoapIn" />
+      <wsdl:output message="tns:MyCardCPSave_ScheduleCheck_UpdateStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GMGServiceSoap" type="tns:GMGServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="View_MyCardCPSave_ScheduleCheck">
+      <soap:operation soapAction="http://tempuri.org/View_MyCardCPSave_ScheduleCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardCPSave_CPTempData_Insert">
+      <soap:operation soapAction="http://tempuri.org/MyCardCPSave_CPTempData_Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardCPSave_Difference_Proc">
+      <soap:operation soapAction="http://tempuri.org/MyCardCPSave_Difference_Proc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardCPSave_ScheduleCheck_UpdateStatus">
+      <soap:operation soapAction="http://tempuri.org/MyCardCPSave_ScheduleCheck_UpdateStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GMGServiceSoap12" type="tns:GMGServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="View_MyCardCPSave_ScheduleCheck">
+      <soap12:operation soapAction="http://tempuri.org/View_MyCardCPSave_ScheduleCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardCPSave_CPTempData_Insert">
+      <soap12:operation soapAction="http://tempuri.org/MyCardCPSave_CPTempData_Insert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardCPSave_Difference_Proc">
+      <soap12:operation soapAction="http://tempuri.org/MyCardCPSave_Difference_Proc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardCPSave_ScheduleCheck_UpdateStatus">
+      <soap12:operation soapAction="http://tempuri.org/MyCardCPSave_ScheduleCheck_UpdateStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GMGService">
+    <wsdl:port name="GMGServiceSoap" binding="tns:GMGServiceSoap">
+      <soap:address location="http://10.16.1.247/GMGService/GMGService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GMGServiceSoap12" binding="tns:GMGServiceSoap12">
+      <soap12:address location="http://10.16.1.247/GMGService/GMGService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

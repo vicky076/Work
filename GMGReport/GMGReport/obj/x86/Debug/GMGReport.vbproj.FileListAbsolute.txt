@@ -1,0 +1,15 @@
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\bin\Debug\GMGReport.exe.config
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\bin\Debug\GMGReport.exe
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\bin\Debug\GMGReport.pdb
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\bin\Debug\GMGReport.xml
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\bin\Debug\office.dll
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\bin\Debug\Microsoft.Office.Interop.Excel.xml
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\bin\Debug\office.xml
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\obj\x86\Debug\GMGReport.Form1.resources
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\obj\x86\Debug\GMGReport.Resources.resources
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\obj\x86\Debug\GMGReport.vbproj.GenerateResource.Cache
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\obj\x86\Debug\GMGReport.exe
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\obj\x86\Debug\GMGReport.xml
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\obj\x86\Debug\GMGReport.pdb
+D:\Project\MyCardBackWeb\GMGReport\GMGReport\obj\x86\Debug\GMGReport.vbprojResolveAssemblyReference.cache

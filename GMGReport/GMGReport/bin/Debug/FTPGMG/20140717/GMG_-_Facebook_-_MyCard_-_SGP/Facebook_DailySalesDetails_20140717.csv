@@ -1,0 +1,2 @@
+Merchant,Location,City,State,Zip,Country,Vendor,VendorID,DCMSID,Product,Denomination,Currency,ProductCountry,SerialNumber,VAN16,TransDate,TransTime,Action,Sign,CardAmount,RefNo,HISTORYID,MarketingCode,ActivatorPartnerTransId,Min,Max
+MyCard,,,,,,Facebook,,12345,FAC19MARGIN0SGD-DIGGMGMYC-001,1650,SGD,SGP,53ddfddd275e4e3abfd7775dc70b2433,53ddfddd275e4e3abfd7775dc70b2433,07/17/2014,10:21:54,A,1,1650,f08ce53c25f94d3aabe2a8cfcae08c87,f08ce53c-25f9-4d3a-abe2-a8cfcae08c87,,FI14071700003737,710,14200

@@ -1,0 +1,602 @@
+﻿＝＝＝ 時間： 2014-11-25 13:27:27，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:27:36，中止程式執行。 ＝＝＝
+查無排程資料執行
+＝＝＝ 時間： 2014-11-25 13:28:29，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:28:32，中止程式執行。 ＝＝＝
+查無排程資料執行
+＝＝＝ 時間： 2014-11-25 13:28:57，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:28:58，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:29:23，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:29:24，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+＝＝＝ 時間： 2014-11-25 13:43:52，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:43:53，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:44:03，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:44:04，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:44:56，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:44:57，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:45:39，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:45:40，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:47:57，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:47:58，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。Excel檔案不存在。
+＝＝＝ 時間： 2014-11-25 13:48:24，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:48:25，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:49:07，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:49:08，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+Excel檔案不存在。
+＝＝＝ 時間： 2014-11-25 13:57:32，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:57:32，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+TWN資料格式不正確
+＝＝＝ 時間： 2014-11-25 13:59:08，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 13:59:08，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:04:08，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:04:09，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:05:36，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:05:36，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:08:53，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:08:54，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:10:48，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:10:49，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料查無資料查無資料
+＝＝＝ 時間： 2014-11-25 14:12:00，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:12:01，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料查無資料查無資料
+＝＝＝ 時間： 2014-11-25 14:15:30，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:15:31，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:22:24，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:22:25，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:24:05，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:24:06，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:25:35，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:25:36，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:30:43，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:30:44，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:33:42，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:33:43，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+查無資料查無資料查無資料查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料查無資料
+＝＝＝ 時間： 2014-11-25 14:36:11，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:36:12，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205查無資料
+＝＝＝ 時間： 2014-11-25 14:36:27，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:36:28，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 205
+＝＝＝ 時間： 2014-11-25 14:38:11，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 14:38:11，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:02:48，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:02:49，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:10:43，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:10:44，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:16:34，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:16:35，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:19:07，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:19:08，中止程式執行。 ＝＝＝
+取資料發生錯誤，要求失敗，HTTP 狀態 404 : Not Found。
+＝＝＝ 時間： 2014-11-25 15:20:23，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:20:24，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:20:58，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:20:59，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:21:32，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:21:33，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+System.IndexOutOfRangeException: 位置 0 沒有資料列。
+   於 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   於 System.Data.RBTree`1.get_Item(Int32 index)
+   於 System.Data.DataRowCollection.get_Item(Int32 index)
+   於 GMGReport.Form1.ReadExcel(String GameFacId, String GameSerId, DateTime SaveDate, Int32 Sn) 於 D:\Project\MyCardBackWeb\GMGReport\GMGReport\Form1.vb: 行 211
+＝＝＝ 時間： 2014-11-25 15:22:42，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:22:43，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:23:44，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:23:45，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:24:55，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:24:56，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:27:53，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:27:54，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:28:26，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:28:27，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:57:32，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:57:33，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:57:53，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:57:54，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:58:13，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 15:58:14，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 16:02:30，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 16:02:31，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 16:16:45，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 16:16:46，中止程式執行。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 16:17:11，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 16:17:34，開始執行程式。 ＝＝＝
+＝＝＝ 時間： 2014-11-25 16:17:35，中止程式執行。 ＝＝＝
+程式將在10秒後自動執行！
+計時器終止...
+執行結果：
+執行完成。
