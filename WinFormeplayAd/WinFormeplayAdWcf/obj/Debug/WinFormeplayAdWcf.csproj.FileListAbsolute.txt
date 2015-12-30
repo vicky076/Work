@@ -1,0 +1,8 @@
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAdWcf\obj\Debug\WinFormeplayAdWcf.csprojResolveAssemblyReference.cache
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAdWcf\obj\Debug\WinFormeplayAdWcf.Properties.Resources.resources
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAdWcf\obj\Debug\WinFormeplayAdWcf.csproj.GenerateResource.Cache
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAdWcf\bin\WinFormeplayAdWcf.dll
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAdWcf\bin\WinFormeplayAdWcf.pdb
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAdWcf\bin\MyCardConn.dll
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAdWcf\obj\Debug\WinFormeplayAdWcf.dll
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAdWcf\obj\Debug\WinFormeplayAdWcf.pdb

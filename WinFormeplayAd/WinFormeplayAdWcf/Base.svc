@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WinFormeplayAdWcf.Base" CodeBehind="Base.svc.cs" %>

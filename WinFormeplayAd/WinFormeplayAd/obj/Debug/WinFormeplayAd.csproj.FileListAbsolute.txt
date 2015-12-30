@@ -1,0 +1,9 @@
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAd\bin\Debug\WinFormeplayAd.exe.config
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAd\bin\Debug\WinFormeplayAd.exe
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAd\bin\Debug\WinFormeplayAd.pdb
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAd\obj\Debug\WinFormeplayAd.csprojResolveAssemblyReference.cache
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAd\obj\Debug\WinFormeplayAd.Form1.resources
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAd\obj\Debug\WinFormeplayAd.Properties.Resources.resources
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAd\obj\Debug\WinFormeplayAd.csproj.GenerateResource.Cache
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAd\obj\Debug\WinFormeplayAd.exe
+D:\Project\MyCardBackWeb\WinFormeplayAd\WinFormeplayAd\obj\Debug\WinFormeplayAd.pdb
